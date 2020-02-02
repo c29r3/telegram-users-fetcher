@@ -7,7 +7,7 @@ import time
 import timeit
 from string import ascii_lowercase
 
-from telethon import TelegramClient
+from telethon import TelegramClient, sync
 from telethon.errors import SessionPasswordNeededError
 from telethon.tl.functions.channels import GetParticipantsRequest
 from telethon.tl.types import ChannelParticipantsAdmins
