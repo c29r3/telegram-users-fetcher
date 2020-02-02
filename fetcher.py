@@ -3,10 +3,10 @@
 import configparser
 import getpass
 import os
+import time
 import timeit
 from string import ascii_lowercase
 
-import time
 from telethon import TelegramClient
 from telethon.errors import SessionPasswordNeededError
 from telethon.tl.functions.channels import GetParticipantsRequest
