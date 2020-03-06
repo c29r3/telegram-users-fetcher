@@ -29,7 +29,7 @@ def init_config():
                              '\n# exclude chat admins. true or false\n'
                              'exclude_admins': 'false',
                              '\n# pause per iteration (in seconds)\n'
-                             'pause': 0.5}
+                             'pause': 0.1}
 
         print('Config has been created, u should restart the script')
         with open('config.ini', 'w') as configfile:
