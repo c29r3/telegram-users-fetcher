@@ -121,7 +121,7 @@ config.read('config.ini')
 init_config()
 client = client_connect()
 channel = client.get_entity(config["default"]["channel"])
-total_users = client.get_participants(config["default"]["channel"]).total
+total_users = channel.participants_count
 limit = 200
 queryKey = list(ascii_lowercase + 'йцукенгшщзхъфывапролджэячсмитьбю' + '1234567890')
 
